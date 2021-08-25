@@ -1,13 +1,17 @@
 
 import './App.module.css';
-import HeaderNavigaton from './component/HeaderNavigation';
+import MainNavigaton from './navigation/MainNavigation';
+import HeaderNavigation from './navigation/HeaderNavigation';
+import Carousel from './component/Carousel';
 
 function App() {
   return (
     <div className="App">
       <nav>
-        < HeaderNavigaton/>
+        < MainNavigaton/>
+        <HeaderNavigation/>
       </nav>
+      <Carousel/>
     <header> 
       </header>
     </div>

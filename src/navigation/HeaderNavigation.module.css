@@ -1,0 +1,17 @@
+.nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1%;
+    border: 1px solid grey;
+}
+.nav img{
+    height: 85px;
+    margin: 0;
+    padding: 0;
+}
+.nav p{
+    margin: 0;
+    font-weight: 700;
+}
