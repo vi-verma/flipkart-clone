@@ -1,9 +1,9 @@
 .card{
     background-color: white;
     box-shadow: 0 2px 6px grey;
-    display: flex;
-    flex-direction: row;
-    justify-content: stretch;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: stretch; */
     width: 97%;
     margin: auto;
 }
@@ -26,4 +26,7 @@
     color: white;
     font-size: 1.2rem;
     border-radius: 7px;
+}
+.items{
+        
 }

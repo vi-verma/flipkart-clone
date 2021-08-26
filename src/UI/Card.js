@@ -2,7 +2,7 @@ import classes from './Card.module.css';
 
 const Card = (props) => {
     return(
-        <div>
+        <div className={classes.card}>
             <div className={classes.title}>
                 <div >
                     <p className={classes.title_name}>
@@ -22,7 +22,7 @@ const Card = (props) => {
                 </div>
             </div>
 
-            <div className={classes.card}>
+            <div className={classes.items}>
                 {props.children}
             </div>
         </div>

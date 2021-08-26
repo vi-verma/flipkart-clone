@@ -1,0 +1,13 @@
+.slik-arrow.slick-prev,
+.slik-arrow.slick-next{
+    background-color: black;
+}
+.item_templet{
+    /* width: 97%; */
+    margin: 30px;
+    /* height: 40vh; */
+}
+/* .item_templet img{
+    width: 20%;
+    height: 40vh;
+} */

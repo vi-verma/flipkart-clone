@@ -2,7 +2,9 @@
 import './App.module.css';
 import MainNavigaton from './navigation/MainNavigation';
 import HeaderNavigation from './navigation/HeaderNavigation';
-import Carousel from './component/Carousel';
+// import Carousel from './component/Carousel';
+import Carousel1 from './component/Carousel1';
+import MultiItemCarousel from './ItemsTemplet/MultiItemCarousel';
 
 function App() {
   return (
@@ -11,9 +13,11 @@ function App() {
         < MainNavigaton/>
         <HeaderNavigation/>
       </nav>
-      <Carousel/>
     <header> 
+      {/* <Carousel/> */}
+      <Carousel1/>
       </header>
+      <MultiItemCarousel/>
     </div>
   );
 }

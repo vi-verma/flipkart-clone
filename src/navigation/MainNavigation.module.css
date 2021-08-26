@@ -1,12 +1,12 @@
 .navigation{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     background-color: rgba(35, 86, 255, 0.767);
 }
 .logo{
-    margin: 10px 0 10px 200px;
+    margin: 8px 11px 10px 250px;
 }
 .logo p:first-child{
     margin: 0;
@@ -19,6 +19,7 @@
 .plus{
    font-style: italic;
    color: white;
+   font-size: .8rem;
    margin: 0;
    padding: 0;
 }
@@ -30,12 +31,13 @@
 }
 .search_inp input{
     /* padding: 2% 0 2% 0 ; */
-    min-width: 500px;
+    min-width: 700px;
     height: 50px;
+    border-radius: 4px;
 }
 .search_inp img{
     margin-left: -6%;
-    margin-top: 2%;
+    /* margin-top: 2%; */
     margin-bottom: 0%;
     /* padding: 1%; */
     height: 30px;
@@ -44,11 +46,20 @@
 }
 
 .login_btn button{
-    width: 60px;
+    border:1px solid rgb(14, 14, 230);
+    margin: auto;
+    border-radius: 2px;
+    background-color: ivory;
+    padding: 4px 35px 4px 35px;
+    color: blue;
+    font-weight: 400;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: stretch;
 }
-.more{
+/* .more{
 
-}
+} */
 .cart{
     width: 30%;
 }
