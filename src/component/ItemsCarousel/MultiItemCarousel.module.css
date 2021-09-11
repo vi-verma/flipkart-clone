@@ -1,0 +1,23 @@
+.multi{
+    display: flex;
+}
+/* .slik-arrow.slick-prev,
+.slik-arrow.slick-next{
+    background-color: rgb(184, 20, 20);
+    color: green;
+} */
+.item_templet{
+    width: 80%; 
+    margin: 30px;
+    display: flex;
+    /* height: 40vh; */
+}
+/* .item_templet img{
+    width: 20%;
+    height: 40vh;
+} */
+.side_img img{
+    /* width: ; */
+    height: 50vh;
+    margin-top: 25px;
+}

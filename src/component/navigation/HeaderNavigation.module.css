@@ -1,10 +1,15 @@
 .nav{
+    top: 67px;
+    position:relative;
+    /* z-index: 1; */
+    width: 100%;
     background-color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 1%;
     border: 1px solid grey;
+    margin-bottom: 80px;
+    text-align: center;
 }
 .nav img{
     height: 85px;

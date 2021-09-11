@@ -1,3 +1,32 @@
 .card{
-    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    /* text-align: center; */
+}
+.card img{
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+}
+.card img:hover{
+    margin: 0;
+    height: 170px;
+    width: 170px;
+
+}
+.product{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+.price{
+    color:rgb(32, 179, 32);
+    margin: 0;
+    padding: 0;
+}
+.info{
+    color: grey;
+    margin: 0;
+    padding: 0;
 }

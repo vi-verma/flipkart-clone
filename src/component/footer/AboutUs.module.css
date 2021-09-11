@@ -1,0 +1,25 @@
+.AboutUs{
+    background-color: rgb(13, 27, 46);
+    color: white;
+    margin-top: 30px;
+    
+    /* border-bottom: 1px solid grey; */
+}
+.aboutus_detail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 30px;
+    border-bottom: 1px solid grey;
+}
+.bottom{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    font-size: 1.4rem;
+    padding: 20px;
+}
+.bottom div{
+    display: flex;
+}

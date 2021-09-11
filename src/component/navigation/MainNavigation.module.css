@@ -1,0 +1,115 @@
+.navigation{
+    position:fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(35, 86, 255);
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    /* padding: 5px 50px 4px 50px; */
+}
+.logo{
+    margin: 8px 11px 10px 250px;
+}
+.logo a{
+    text-decoration: none;
+    line-height: 25px;
+}
+.logo p:first-child{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 800;
+    font-style: italic;
+}
+.plus{
+    line-height: 0%;
+   font-style: italic;
+   color: white;
+   font-size: .8rem;
+   margin: 0;
+   padding: 0;
+   text-decoration: none;
+
+}
+.plus span{
+    color: yellow;
+}
+.plus span:first-child{
+    color: rgb(255, 255, 255);
+}
+.plus img{
+    width: 15px;
+}
+.plus:hover{
+    text-decoration: underline;
+    color: white;
+}
+.search_inp input{
+    min-width: 700px;
+    height: 50px;
+    border-radius: 4px;
+}
+.search_inp img{
+    margin-left: -6%;
+    margin-bottom: 0%;
+    height: 30px;
+    font-weight: 30px;
+    fill: blue;
+}
+
+.login_btn{
+    border:none;
+    border-radius: 2px;
+    background-color: rgb(253, 253, 253);
+    padding: 6px 50px 6px 50px;
+    margin: 0 20px 0 80px;
+    color: blue;
+    font-weight: 400;
+    font-size: 1.4rem;
+    
+}
+.login_btn a{
+    text-decoration: none;
+}
+.more button{
+    border:none;
+    background-color: rgba(35, 78, 219, 0.267);
+    /* padding: 7px 45px 7px 45px; */
+    margin: 0 60px 0 60px;
+    /* width: 140px; */
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: stretch;
+}
+.cart{
+    margin: 0 60px 0 70px;
+    /* width: 30%; */
+    font-weight: 400;
+    font-size: 1.2rem;
+    display: flex;
+    /* justify-content: stsretch; */
+    /* color: white; */
+}
+/* .cart span{
+    margin-left: 10px;
+} */
+.cart img{
+    width: 40px;
+}
+.quantity{
+    background-color: red;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    font-size: 1.5rem;
+}
+.cart a{
+    color: cornsilk;
+    text-decoration: none;
+}

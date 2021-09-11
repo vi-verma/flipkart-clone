@@ -1,0 +1,100 @@
+.cart_summery{
+    width: 100%;
+    margin: 30px;
+    display: flex;
+   
+}
+.cart_items_summry{
+    /* background-color: white; */
+    width: 65%;
+    margin-right: 50px;
+   box-shadow: 0 2px 4px 8px rgb(194, 192, 192);
+    background-color: white;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    padding: 1%;
+    width: 100%;
+}
+.title{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    border-bottom:1px solid rgb(214, 214, 214);
+    font-size: 1.2rem;
+    /* color: rgb(207, 204, 204); */
+}
+.title p:first-child{
+    font-size: 1.4rem;
+    color: black;
+}
+/* .product_image img{
+    border: 1px solid rgb(219, 217, 217);
+    width: 50%;
+    padding: 1%;
+}
+.quantity_button{
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.quantity_button button{
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+    margin: 1%;
+}
+.quantity_button p{
+    margin-top: 1.5%;
+    border: 1px solid rgb(189, 185, 185);
+    width: 70px;
+    height: 30px;
+    text-align: center;
+}
+.delevery_status{
+    margin-left: 30px ;
+} */
+.order_button{
+    border-top: 1px solid rgb(216, 215, 215);
+    position: sticky;
+    display: flex;
+    justify-content: flex-end;
+    /* padding: 1%; */
+    /* padding-top: 3%;  */
+}
+.order_button button{
+    background-color: rgb(235, 113, 32);
+    height: 60px;
+    width: 260px;
+    border-radius: 4px;
+    color: white;
+    font-size: 1.4rem;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.price_summry{
+    font-size: 1.4rem;
+    background-color: white;
+    width: 26%;
+    /* padding: 50px ; */
+    box-shadow: 0 2px 4px 8px rgb(192, 191, 191);
+}
+.price_title{
+    
+    border-bottom: 1px solid rgb(214, 211, 211);
+    /* width: 100%; */
+}
+.price_title p{
+    color: rgb(167, 165, 165);
+    margin: 20px;
+    font-weight: 500;
+}
+.price_description{
+   padding: 20px;
+}
+.price_description span{
+    float: right;;
+}

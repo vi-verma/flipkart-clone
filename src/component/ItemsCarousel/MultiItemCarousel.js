@@ -2,22 +2,25 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick-theme.css';
 import 'slick-carousel/slick/slick.css';
 import classes from './MultiItemCarousel.module.css';
-import Card from '../UI/Card'
-import ItemCard from '../UI/ItemCard';
-import item1 from '../img/item1.jpeg';
-import item2 from '../img/item2.jpeg';
-import item3 from '../img/item3.jpeg';
-import item4 from '../img/item4.jpeg';
-import item5 from '../img/item5.jpeg';
-import item6 from '../img/item6.jpeg';
-import item7 from '../img/item7.jpeg';
-import item8 from '../img/item8.jpeg';
+import Card from '../../UI/Card'
+import ItemCard from '../../UI/ItemCard';
+import item1 from '../../img/item1.jpeg';
+import item2 from '../../img/item2.jpeg';
+import item3 from '../../img/item3.jpeg';
+import item4 from '../../img/item4.jpeg';
+import item5 from '../../img/item5.jpeg';
+import item6 from '../../img/item6.jpeg';
+import item7 from '../../img/item7.jpeg';
+import item8 from '../../img/item8.jpeg';
+import sideImg from '../../img/sideImg.jpg';
+// import { Fragment } from 'react';
 
 const MultiItemCarousel = ( ) => {
     return(
-            <Card title='Top Fashion style'>
+        <div className={classes.multi}>
         <div className={classes.item_templet}>
-                <Slider slidesToShow={7}>
+            <Card title='Top Fashion style'>
+                <Slider slidesToShow={4}>
                     <ItemCard src={item1}/>
                     <ItemCard src={item2}/>
                     <ItemCard src={item3}/>
@@ -51,8 +54,12 @@ const MultiItemCarousel = ( ) => {
                         <img src={item8} alt='img'/>
                     </div> */}
                 </Slider>
-        </div>
             </Card>
+        </div>
+            <div className={classes.side_img}>
+                <img src={sideImg} alt='additional side img ' />
+            </div>
+            </div>
     );
 
 };

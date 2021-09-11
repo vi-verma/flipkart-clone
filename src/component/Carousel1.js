@@ -11,7 +11,7 @@ const Carousel1 = ( ) => {
     return(
         <div className={classes.carousel}>
             {/* <h1>Carusel</h1> */}
-            <Slider autoplay={true} autoplaySpeed={1000} dots initialSlide={3}>
+            <Slider autoplay={true} autoplaySpeed={1000}  initialSlide={3}>
                 <div>
                     <img src={img1} alt='img'  />
                 </div>

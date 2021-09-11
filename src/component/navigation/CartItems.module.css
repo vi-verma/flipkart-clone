@@ -1,0 +1,37 @@
+.product{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content:space-between;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    border-bottom:1px solid rgb(207, 205, 205);
+}
+.product_image img{
+    border: 1px solid rgb(219, 217, 217);
+    /* width: 50%; */
+    padding: 1%;
+    margin: 1%;
+}
+.quantity_button{
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 3%;
+}
+.quantity_button button{
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+    margin: 1%;
+}
+.quantity_button p{
+    margin-top: 1.5%;
+    border: 1px solid rgb(189, 185, 185);
+    width: 70px;
+    height: 30px;
+    text-align: center;
+}
+.delevery_status{
+    margin-left: 30px ;
+}
