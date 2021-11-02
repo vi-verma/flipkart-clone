@@ -92,12 +92,10 @@ const cartReducer =(state, action)=> {
     }
 };
 
-
 const CartProvider = (props) => {
     const [cartState, dispatchCartAction] = useReducer(cartReducer, defaultCartState)
 
-    console.log(cartState, 'ret CartState Provider')
-
+    // console.log(cartState, 'ret CartState Provider')
     const addItemToCartHandeler = (item) => {
         // console.log(item, 'cp onadd fn')
         dispatchCartAction({type:'add', item:item})
@@ -111,6 +109,7 @@ const CartProvider = (props) => {
         dispatchCartAction({type: 'delete', id: id});
         console.log(id, 'delete item hand')
     }
+
     const cartContext = {
         items: cartState?.items,
         totalItems: cartState?.totalItems,

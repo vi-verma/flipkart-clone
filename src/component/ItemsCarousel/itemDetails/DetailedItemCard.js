@@ -10,6 +10,7 @@ const DeatiledItemCard = (props) => {
     const onAddToCartHandeler =(item )=>{
         item.quantity = 1;
         cartCtx.addItem(item);
+        
         // console.log(item, "detailed item")
     };
 
